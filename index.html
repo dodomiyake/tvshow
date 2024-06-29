@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReelCruise</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-mobile is-centered features">
+                <div class="column is-two-thirds-mobile is-half-tablet is-half-desktop is-half-widescreen is-ohalf-fullhd">
+                    <h1 class="title is-3 has-text-centered">TV SHOW Check</h1>
+                    <form action="" id="searchForm" name="query">
+                        <div class="field has-addons">
+                            <div class="control is-expanded">
+                                <input class="input" type="text" placeholder="Search TV shows" name="query">
+                            </div>
+                            <div class="control">
+                                <button id="search" class="button is-primary">
+                                    <span class="icon">
+                                        <i class="fas fa-search" aria-hidden="true"></i>
+                                    </span>                                    
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="showData">
+        <div class="container is-mobile">
+            <div class="columns is-centered is-multiline" id="showImg">
+                
+            </div>
+        </div>
+    </section>
+
+
+<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Designed</strong> by <a href="#">Oluwadamilola Ajayi</a>
+        | Email: <a href="mailto:">oluwadamilola.william@gmail.com</a>
+        | Username: @OluwadamilolaAjayi
+      </p>
+    </div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
